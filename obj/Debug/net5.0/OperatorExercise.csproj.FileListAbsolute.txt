@@ -13,3 +13,4 @@ C:\WORK\REPO\OperatorExercise\obj\Debug\net5.0\OperatorExercise.dll
 C:\WORK\REPO\OperatorExercise\obj\Debug\net5.0\ref\OperatorExercise.dll
 C:\WORK\REPO\OperatorExercise\obj\Debug\net5.0\OperatorExercise.pdb
 C:\WORK\REPO\OperatorExercise\obj\Debug\net5.0\OperatorExercise.genruntimeconfig.cache
+C:\WORK\REPO\OperatorExercise\obj\Debug\net5.0\OperatorExercise.csprojAssemblyReference.cache

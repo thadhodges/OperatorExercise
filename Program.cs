@@ -4,12 +4,22 @@ namespace OperatorExercise
 {
     class Program
     {
-        
-        
+
+        //is even (bool) this example from lecture
+        public static bool IsEven(int number)
+        {
+            if (number % 2 == 0) 
+            {
+                return true;
+            }
+
+            return false;
+        }
+        //is even (bool) this example from lecture
         static void Main(string[] args)
         {
             //Exercise 1
-
+            //increment/decrement
             int a = 1;
             int b = 2;
             int c = 5;
@@ -36,6 +46,11 @@ namespace OperatorExercise
             Console.WriteLine(--d);
             Console.WriteLine(--d);
             Console.WriteLine(--d);
+           
+
+            //is even (bool) this example from lecture
+            Console.WriteLine();
+            Console.WriteLine(IsEven(3446786));
 
             Console.ReadKey();
 
