@@ -15,10 +15,45 @@ namespace OperatorExercise
 
             return false;
         }
+
+
+        // Exercise 2 Creating the Method
+
+        public static double AreaOfCir(double radius)
+        {
+            Console.WriteLine("What is the radius of the Circle?");
+            radius = double.Parse(Console.ReadLine());
+            double area = (radius * radius) * Math.PI;
+            return area;
+            
+        }
         //is even (bool) this example from lecture
         static void Main(string[] args)
         {
             //Exercise 1
+
+
+            int x = 17;
+            int y = 4;
+            int quotient = x / y;
+            int remainder = x % y;
+
+            Console.WriteLine($"{x}/{y} is {quotient} remainder {remainder}");
+
+
+            //Exercise 2 calling method AreaOfCir
+
+            
+            Console.WriteLine((AreaOfCir(2)));
+            
+            
+            
+            
+            
+            
+            
+            
+            
             //increment/decrement
             int a = 1;
             int b = 2;
@@ -51,6 +86,7 @@ namespace OperatorExercise
             //is even (bool) this example from lecture
             Console.WriteLine();
             Console.WriteLine(IsEven(3446786));
+            Console.WriteLine(IsEven(34467869));
 
             Console.ReadKey();
 
